@@ -1,0 +1,32 @@
+{
+  "name": "vet-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "Ranjita Das <ranjita.renee.das@gmail.com> (http://ranjitadas.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0",
+    "css-loader": "^0.25.0",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^6.2.5"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
