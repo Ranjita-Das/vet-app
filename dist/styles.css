@@ -24,9 +24,7 @@ footer{
   background-color:pink;
   width: 100%;
   color:white;
-  text-align: center;
   display:flex;
-  flex:1
   align-items: flex-start;
   justify-content: flex-start;
   height:auto;
