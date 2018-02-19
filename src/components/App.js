@@ -32,6 +32,7 @@ class App extends Component{
     this.setState({
       appointments:newApts,
     });
+
   }
 
   toggleVisibility(){
@@ -49,7 +50,8 @@ class App extends Component{
 
     this.setState({
       appointments: tempAptsList,
-    })    
+      formVisibility: this.state.formVisibility ? false : true,
+    })
   }
 
   render(){

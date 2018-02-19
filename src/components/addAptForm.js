@@ -2,6 +2,10 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 
 class Form extends Component{
+  constructor(props){
+    super(props);
+    this.handleAdd=this.handleAdd.bind(this);
+  }
 
   handleAdd(e){
     var newApt={
@@ -18,7 +22,7 @@ class Form extends Component{
   render(){
     return(
       <div style={{paddingLeft: "5%", paddingRight: "5%", marginBottom:"20px"}}>
-      <form onSubmit={this.handleAdd.bind(this)}>
+      <form onSubmit={this.handleAdd}>
         <div className="form-group">
           <label for="pet">Pet Name:</label>
           <input type="text" className="form-control" id="pet" ref="petName" />
